@@ -1,6 +1,11 @@
+.searchBar{
+  display: flex;
+  align-items: center;
+}
+
 .TodoSearch {
   background: #F9FBFC;
-  border-radius: 2px;
+  border-radius: 12px;
   border: 2px solid #202329;
   margin: 0 24px;
   height: 64px;
@@ -21,4 +26,10 @@
 
 .TodoSearch:focus {
   outline-color: #61DAFA;
+}
+
+.IconSvg {
+  width: 80px;
+  height: 80px;
+  transition: fill .15s;
 }
