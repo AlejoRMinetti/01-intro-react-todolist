@@ -16,7 +16,7 @@ function TodoSearch() {
       <SearchSVG className="IconSvg"/>
       <input
       className="TodoSearch"
-      placeholder="Cebolla"
+      placeholder="Busque una tarea"
       value={searchValue}
       onChange={onSearchValueChange}
       />
